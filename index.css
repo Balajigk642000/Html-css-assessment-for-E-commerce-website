@@ -1,15 +1,16 @@
+
 #header {
   background-color: #000000;
   color: #fff;
   border-color: #080808;
-  min-height: 50px;
+  height: 8%;
   border: 1px solid transparent;
 }
 
 li {
   list-style-type: none;
   float: right;
-  padding: 1px 20px 0px 2px;
+  padding: 15px 20px 0px 2px;
 }
 
 li a {
@@ -29,20 +30,19 @@ p {
 }
 
 .bg {
-  min-height: 600px;
+  height: 100%;
   background: url(background.jpg);
-  height: 700px;
   color: #f8f8f8;
   background-size: cover;
 }
 
-#container {
+#con {
   background-color: rgba(0, 0, 0, 0.7);
-  max-width: 500px;
-  padding: 40px 105px;
+  width:35%;
+  padding: 40px 60px;
   position: absolute;
   top: 325px;
-  left: 550px;
+  left: 525px;
 }
 
 h4 {
@@ -55,80 +55,80 @@ h4 {
   padding: 10px 20px;
   cursor: pointer;
 }
-
+*{
+  box-sizing: border-box;
+}
 .row img {
-  content: "";
   display: table;
   clear: both;
   border: 2px solid grey;
   padding: 5px 5px 5px 5px;
 }
 
-.img1 {
+#img1 {
   float: left;
-  height: 25%;
-  width: 25%;
-  padding: 75px 15px 10px 110px;
+  height: 30%;
+  width: 30%;
+  padding: 75px 20px 50px 180px;
 }
 
-.img1 h1 {
+#img1 h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
 }
 
-.img1 a {
+#img1 a {
   text-decoration: none;
   color: #000000;
 }
 
-.img1 h4 {
+#img1 h4 {
   text-align: center;
   font-family: 'Lobster', cursive;
 }
 
-.img2 {
+#img2 {
   float: left;
-  height: 25%;
-  width: 25%;
-  padding: 75px 0px 10px 70px;
-  margin-bottom: 200px;
+  height: 30%;
+  width: 30%;
+  padding: 75px 20px 50px 180px;
 }
 
-.img2 h1 {
+#img2 h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
   text-decoration: none;
   color: #000000;
 }
 
-.img2 a {
-  text-decoration: none;
+#img2 a {
+    text-decoration: none;
   color: #000000;
 }
 
-.img2 h4 {
+#img2 h4 {
   text-align: center;
   font-family: 'Lobster', cursive;
 }
 
-.img3 {
+#img3 {
   float: left;
-  height: 20%;
-  width: 25%;
-  padding: 75px 40px 10px 90px;
+  height: 30%;
+  width: 30%;
+  padding: 75px 20px 50px 180px;
 }
 
-.img3 h1 {
+#img3 h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
 }
 
-.img3 a {
+#img3 a {
   text-decoration: none;
   color: #000000;
 }
 
-.img3 h4 {
+#img3 h4 {
   text-align: center;
   font-family: 'Lobster', cursive;
 }
@@ -140,8 +140,8 @@ h4 {
 #footer {
   background-color: #000000;
   position: relative;
-  height: 50px;
-  margin-top: -500px;
+  height: 6%;
+  margin-top: 20px;
   clear: both;
 }
 
